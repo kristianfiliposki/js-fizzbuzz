@@ -1,6 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
 .container{
     width: 90%;
-    height: 90vh;
     background-color: turquoise;
     margin: auto;
+}
+
+#myList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#myList div{
+    height: 40px;
+    margin: 20px;
+    padding: 6px;
 }
